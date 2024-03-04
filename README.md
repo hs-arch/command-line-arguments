@@ -25,24 +25,25 @@ Add a new note to the list of notes.
 
 bash
 Copy code
-node app.js add --title="Your Note Title" --body="Your Note Body"
+**node app.js add --title="Your Note Title" --body="Your Note Body"**
 Delete a Note
 Delete a note from the list of notes based on its title.
 
 bash
 Copy code
-node app.js delete --title="Note Title to Delete"
+**node app.js delete --title="Note Title to Delete"**
 See All Notes
 View all the notes stored in the application.
 
 bash
 Copy code
-node app.js seeAllNotes
+**node app.js seeAllNotes**
 Update a Note
 Update the body of an existing note.
 
 bash
 Copy code
-node app.js updateNote --title="Note Title to Update" --body="Updated Note Body"
+**node app.js updateNote --title="Note Title to Update" --body="Updated Note Body"**
+
 Contributing
 Contributions are welcome! If you have any suggestions, improvements, or issues, feel free to open an issue or create a pull request.
